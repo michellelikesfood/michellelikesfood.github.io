@@ -1,0 +1,33 @@
+.home-page__wrapper {
+  padding: 20px 80px;
+}
+
+.home-page__title {
+  margin-top: 0;
+}
+
+.home-page__approach-title {
+  font-weight: 400;
+}
+
+.home-page__approach {
+  line-height: 1.8;
+}
+
+.home-page__section {
+  margin-bottom: 40px;
+}
+
+.home-page__section-title {
+  display: flex;
+  align-items: center;
+}
+
+.home-page__section-title-text {
+  margin-left: 6px;
+  margin-bottom: 0;
+}
+
+.home-page__section--main {
+  box-shadow: 10px 5px 5px 3px #0a66c2;
+}

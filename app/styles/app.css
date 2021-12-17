@@ -1,0 +1,93 @@
+@import 'index.css';
+
+
+body {
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.global-nav__logo {
+  color: #0a66c2;
+}
+
+.global-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+.global-nav__content {
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+  margin-left: 10px;
+}
+
+.main-content {
+  margin-top: 65px;
+  padding: 15px;
+}
+
+.global-nav__sprinterns {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #f9f9f9;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  right: 0;
+}
+
+.global-nav__sprinterns-item {
+  padding: 5px 10px;
+}
+
+.global-nav__sprinterns-item:hover {
+  background-color: #ddd;
+}
+
+.global-nav__dropdown-button {
+  color: rgba(0,0,0,0.9);
+  border: none;
+  background: none;
+  color: inherit;
+  margin-left: 5px;
+  padding:  5px 10px;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.global-nav__home a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 400;
+  margin-left: 5px;
+  padding:  5px 10px;
+}
+
+.global-nav__dropdown {
+  position: relative;
+}
+
+.global-nav__dropdown:hover .global-nav__sprinterns, .global-nav__sprinterns:hover {
+  display: block;
+}
+
+.global-nav__home a:hover, .global-nav__dropdown-button:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.global-nav__dropdown-caret:before {
+  content: "\25bc";
+  font-size: 10px;
+  vertical-align: middle;
+  color: rgba(0,0,0,0.8);
+  font-style: normal;
+}
