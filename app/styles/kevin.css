@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile Section */
+
+
+
+/* About Section */
+
+.About-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    width: 1000px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#pen-edit {
+    left: 880px;
+    top: 5px;
+}
+
+.Section-Header {
+    font-weight: 500;
+    float: left;
+}
+
+.Section-Header-About {
+    float: left;
+}
+
+.Edit-Mark {
+    float:right;
+}
+
+
+.About-Space {
+    padding: 10px;
+}
+
+/* Experience Section */
+
+.Experience-txt {
+    display:flex;
+    padding: 10px;
+    float: left; 
+}
+
+.Experience-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* .Section-details {
+    padding-right: 20px;
+} */
+
+/* #Exp {
+    font-weight: 500;
+} */
+
+.fas{
+    position: relative;
+    left: 830px;
+    top: 15px;
+}
+
+.fab {
+    color:#0e76a8;
+    font-size: 70px;
+    position: absolute;
+    left: 25px;
+}
+
+.Exp-cred {
+    position: relative;
+    left: 100px;
+}
+
+.Exp-cred + h5 {
+    color:black;
+    font-weight: 400;
+}
+#Exp-date {
+    color: #adadad;
+    font-weight: 400;
+}
+
+.Section-details{
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    top:5px;
+}
+
+#title-edit {
+    display: flex;
+}
+
+#pen {
+    color:#adadad;
+    left: 41.5rem;
+    top: 0px;
+}
+
+.Exp-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
