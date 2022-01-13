@@ -1,1 +1,336 @@
-Jiamin, please fill out
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<div class="container">
+<div class="c">
+  <div class="c-header">
+    <h3>Education</h3>
+  </div>
+  <div class="c-body">
+    <img src="bmcc.jpg" height="60px"/>
+    <h5 class="c-title">
+        Borough of Manhattan Community College</h5>
+    <p class="c-text">Associate of Science - AS, Computer Science</p>
+    <p class="c-text">2020 - 2022</p>
+
+    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+       Add Education
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M11.75 4.5a.75.75 0 01.75.75V11h5.75a.75.75 0 010 1.5H12.5v5.75a.75.75 0 01-1.5 0V12.5H5.25a.75.75 0 010-1.5H11V5.25a.75.75 0 01.75-.75z"></path></svg>
+    </button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add education</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         
+ <div class="form-group">
+    <label for="inputSchool">School</label>
+    <input type="text" class="form-control" id="inputSchool" placeholder="Ex: Boston University">
+  </div>
+  <div class="form-group">
+    <label for="inputDegree">Degree</label>
+    <input type="text" class="form-control" id="inputDegree" placeholder="Ex: Bachelor's">
+  </div>
+  <div class="form-group">
+    <label for="inputDegree">Field of study</label>
+    <input type="text" class="form-control" id="inputFieldOfStudy" placeholder="Ex: Business">
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      Start Date
+      <select id="inputStartDate" class="form-control">
+        <option selected>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>2March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputStartDate"></label>
+      <select id="inputStartDate" class="form-control">
+        <option selected>Year</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      End Date(or expected)
+      <select id="inputStartDate" class="form-control">
+        <option selected>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>2March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputStartDate"></label>
+      <select id="inputStartDate" class="form-control">
+        <option selected>Year</option>
+        <option>2032</option>
+        <option>2031</option>
+        <option>2030</option>
+        <option>2029</option>
+        <option>2028</option>
+        <option>2027</option>
+        <option>2026</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputGrade">Grade</label>
+    <input type="text" class="form-control" id="inputGrade" placeholder="Ex: 3.5">
+  </div>
+  <div class="form-group">
+  <div>
+    <label for="inputTextarea">Activities and societies</label>
+    <textarea type="text" class="form-control" id="inputTextarea" placeholder="Ex: Alpha Phi Omega, Marching Band, Volleyball" required></textarea>
+  </div>
+  </div>
+  <div class="form-group">
+   <div>
+    <label for="inputTextarea1">Description</label>
+    <textarea type="text" class="form-control" id="inputTextarea1"></textarea>
+  </div>
+  </div>
+  <div class="form-group">
+   <p>Media</p>
+   <p>Add or link to external documents, photos, sites, videos, and presentations.
+       <a href="https://www.linkedin.com/help/linkedin/answer/34327/supported-providers-and-content-types-for-work-samples-on-your-profile">Learn more</a>
+   </p>
+   <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Add Media
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Add a link</button>
+    <button class="dropdown-item" type="button">Upload a media</button>
+  </div>
+  </div>
+  </div>
+
+  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button id="save" onclick="save()" class="btn btn-primary save-details" type="button" name="save-details">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal1">
+       Edit Education
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
+    </button>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Edit education</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         
+ <div class="form-group">
+    <label for="inputSchool">School</label>
+    <input type="text" class="form-control" id="inputSchool" placeholder="Borough of Manhattan Community College">
+  </div>
+  <div class="form-group">
+    <label for="inputDegree">Degree</label>
+    <input type="text" class="form-control" id="inputDegree" placeholder="Associate of Science - AS">
+  </div>
+  <div class="form-group">
+    <label for="inputDegree">Field of study</label>
+    <input type="text" class="form-control" id="inputFieldOfStudy" placeholder="Computer Science">
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      Start Date
+      <select id="inputStartDate" class="form-control">
+        <option selected>August</option>
+        <option>January</option>
+        <option>February</option>
+        <option>2March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputStartDate"></label>
+      <select id="inputStartDate" class="form-control">
+        <option selected>2020</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      End Date(or expected)
+      <select id="inputStartDate" class="form-control">
+        <option selected>May</option>
+        <option>January</option>
+        <option>February</option>
+        <option>2March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputStartDate"></label>
+      <select id="inputStartDate" class="form-control">
+        <option selected>2022</option>
+        <option>2032</option>
+        <option>2031</option>
+        <option>2030</option>
+        <option>2029</option>
+        <option>2028</option>
+        <option>2027</option>
+        <option>2026</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputGrade">Grade</label>
+    <input type="text" class="form-control" id="inputGrade" placeholder="Ex: 3.5">
+  </div>
+  <div class="form-group">
+  <div>
+    <label for="inputTextarea">Activities and societies</label>
+    <textarea type="text" class="form-control" id="inputTextarea" placeholder="Ex: Alpha Phi Omega, Marching Band, Volleyball" required></textarea>
+  </div>
+  </div>
+  <div class="form-group">
+   <div>
+    <label for="inputTextarea1">Description</label>
+    <textarea type="text" class="form-control" id="inputTextarea1"></textarea>
+  </div>
+  </div>
+  <div class="form-group">
+   <p>Media</p>
+   <p>Add or link to external documents, photos, sites, videos, and presentations.
+       <a href="https://www.linkedin.com/help/linkedin/answer/34327/supported-providers-and-content-types-for-work-samples-on-your-profile">Learn more</a>
+   </p>
+   <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Add Media
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Add a link</button>
+    <button class="dropdown-item" type="button">Upload a media</button>
+  </div>
+  </div>
+  </div>
+
+  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button id="save" onclick="save()" class="btn btn-primary save-details" type="button" name="save-details">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+</div>
+ 
+
