@@ -1,1 +1,116 @@
-Mehruj, please fill out
+{{! Mehruj, please fill out }}
+<style>
+  body{ background-color: #c8d9db; }
+</style>
+<div class="container-fluid">
+
+  <div class="coverphoto">
+    <img src="covercloud.jpg" class="img-fluid" alt="Responsive image" />
+  </div>
+  {{! dropdown }}
+  <div class="btn-group dropend">
+    <button
+      type="button"
+      class="camera dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      <img src="camera1.png" id="camera" alt="Responsive image" />
+    </button>
+    <ul class="dropdown-menu" id="dropdown-color">
+      <li><a class="dropdown-item" href="#">Upload Photo</a></li>
+      <li><a class="dropdown-item" href="#">Delete Photo</a></li>
+      <li><a class="dropdown-item" href="#">Customize Photo</a></li>
+    </ul>
+  </div>
+  {{! dropdown end }}
+  <div class="card" id="roundcorners" style="width: 23rem;">
+
+    <img
+      src="pfp.jpg"
+      alt="This is a small profile image of mk"
+      class="avatar"
+    />
+
+    <div class="card-body">
+      <h5 class="card-title">Mehruj Kamal</h5>
+      <p class="card-text">Student At CUNY Queens College
+        <a href="https://www.linkedin.com/school/queens-college/">
+          <img
+            alt="linkedinlogo"
+            src="linkedinlogo.png"
+            width="20"
+            height="20"
+          />
+        </a>
+      </p>
+      <p>
+        New York City Metropolitan Area
+
+        <a href="mailto:mehruj277@gmail.com">
+          <img alt="contact" src="contact.png" width="20" height="20" />
+        </a>
+      </p>
+      {{! <a href="#" class="btn btn-primary">Go somewhere</a> }}
+      <div class="dropdown">
+        <button
+          class="button-33 dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Open To
+        </button>
+        <ul
+          class="dropdown-color dropdown-menu"
+          id="dropdown-color"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li><a class="dropdown-item" href="#">Hiring</a></li>
+          <li><a class="dropdown-item" href="#">Providing Services</a></li>
+        </ul>
+        <button
+          class="button-33 dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >+</button>
+        <ul
+          class="dropdown-menu"
+          id="dropdown-color"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li><a class="dropdown-item" href="#">Intro</a></li>
+          <li><a class="dropdown-item" href="#">About</a></li>
+          <li><a class="dropdown-item" href="#">Feature</a></li>
+          <li><a class="dropdown-item" href="#">Background</a></li>
+          <li><a class="dropdown-item" href="#">Skills</a></li>
+          <li><a class="dropdown-item" href="#">Accomplishments</a></li>
+          <li><a class="dropdown-item" href="#">Additional Info</a></li>
+          <li><a class="dropdown-item" href="#">Supported Language</a></li>
+        </ul>
+        <button
+          class="button-33 dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >More</button>
+        <ul
+          class="dropdown-menu"
+          id="dropdown-color"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li><a class="dropdown-item" href="#">Share Profile</a></li>
+          <li><a class="dropdown-item" href="#">Save as Pdf</a></li>
+          <li><a class="dropdown-item" href="#">Build a resume</a></li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</div>
