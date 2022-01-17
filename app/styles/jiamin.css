@@ -3,3 +3,16 @@
     border-radius: 10px;
     border: solid 1px rgb(213, 218, 205);
 }
+
+.btn1{
+    float:right;
+}
+
+.btn2{
+    float:right;
+}
+
+.c-text2{
+    color: #adadad;
+    font-weight: 400;
+}
