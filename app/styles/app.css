@@ -1,8 +1,13 @@
 @import 'index.css';
 @import 'kevin.css';
+@import 'unaiza.css';
+@import 'jiamin.css';
+@import "mehrujcss.css";
+
+
 
 body {
-  background-color: #f3f2ef;
+  background-color: #f3f2ef!important;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   font-weight: 300;
@@ -20,7 +25,7 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   background-color: #f5f5f5;
   padding: 15px;
 }
@@ -40,7 +45,7 @@ body {
 .global-nav__sprinterns {
   display: none;
   position: absolute;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   background-color: #f9f9f9;
   list-style: none;
   padding: 0;
@@ -58,12 +63,12 @@ body {
 }
 
 .global-nav__dropdown-button {
-  color: rgba(0,0,0,0.9);
+  color: rgba(0, 0, 0, 0.9);
   border: none;
   background: none;
   color: inherit;
   margin-left: 5px;
-  padding:  5px 10px;
+  padding: 5px 10px;
   font: inherit;
   font-weight: 400;
   font-size: 18px;
@@ -72,28 +77,30 @@ body {
 .global-nav__home a {
   text-decoration: none;
   font-size: 18px;
-  color: rgba(0,0,0,0.9);
+  color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
   margin-left: 5px;
-  padding:  5px 10px;
+  padding: 5px 10px;
 }
 
 .global-nav__dropdown {
   position: relative;
 }
 
-.global-nav__dropdown:hover .global-nav__sprinterns, .global-nav__sprinterns:hover {
+.global-nav__dropdown:hover .global-nav__sprinterns,
+.global-nav__sprinterns:hover {
   display: block;
 }
 
-.global-nav__home a:hover, .global-nav__dropdown-button:hover {
-  background-color: rgba(0,0,0,0.4);
+.global-nav__home a:hover,
+.global-nav__dropdown-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .global-nav__dropdown-caret:before {
   content: "\25bc";
   font-size: 10px;
   vertical-align: middle;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-style: normal;
 }
