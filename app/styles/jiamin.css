@@ -16,3 +16,13 @@
     color: #adadad;
     font-weight: 400;
 }
+
+#left{  
+    float:left;
+    padding-left: 20px;
+} 
+
+#right{ 
+    margin-left:200px; 
+    height:100%;
+}
