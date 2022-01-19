@@ -1,7 +1,375 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+
+
+/* Linkedin Profile Section */
+
+.Profile-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    max-width: 800px;
+    min-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Linkedin About Section */
+
+.About-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    max-width: 800px;
+    min-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .02s;
+    margin-left: 30px;
+}
+
+.About-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.About-title-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.About-Info {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+/* Linkedin Experience Section */
+
+.Exp-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    max-width: 800px;
+    min-width: 350px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    transition: .02s;
+    margin-left: 30px;
+
+}
+
+.Exp-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.Exp-title-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Exp-sub-section {
+    display: flex;
+    padding-left: 20px;
+}
+
+.Exp-last-sub-section {
+    display: flex;
+    padding-left: 20px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.Exp-sub-title-icon {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding-right: 20px;
+}
+
+.Exp-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.Exp-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Exp-company {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.Exp-date {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.Exp-location {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.Exp-info {
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#Exp-info-last {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.Exp-sub-content {
+    padding-left: 20px;    
+    width: 100%;
+}
+
+.Exp-title-location {
+    padding-bottom: 5px;
+}
+
+/* Linkedin Education Section */
+
+.Edu-Section {
+    max-width: 800px;
+    min-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: .02s;
+}
+
+.Edu-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.Edu-title-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Edu-sub-section {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.Edu-sub-title-icon {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding-right: 20px;
+}
+
+.Edu-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.Edu-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Edu-degree {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.Edu-year {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.Edu-last-year {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* #Edu-bar {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cfcfcf;
+    display: flex;
+    padding-right: 20px;
+    justify-content: end;
+} */
+
+/* #Edu-last-bar {
+    width: 100%;
+    display: flex;
+    padding-right: 20px;
+    justify-content: end;
+} */
+
+.Edu-info {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.Edu-sub-content {
+    padding-left: 20px;    
+    width: 100%;
+}
+
+.Edu-title-bar {
+    padding-bottom: 5px;
+}
+
+/* Linkedin Skills Section */
+
+.Skills-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    max-width: 800px;
+    min-width: 350px;
+    height: auto;
+    min-height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .02s;
+    margin-left: 30px;
+}
+
+.Skill-title-icon {
+    display: flex;
+    align-items: center;
+}
+
+#Skill-pen {
+    display: flex;
+    align-items: center;
+}
+
+.Skill-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.Skill-add {
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+    opacity: 0.8;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+#quiz-item {
+    text-decoration: none;
+    color: inherit;
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: 600;
+    outline-style: solid;
+    outline-color: #024990;
+    outline-width: thin;
+    border-radius: 20px;
+    padding: 5px 5px 10px 10px;
+ }
+
+ .Skill-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.Skill-title-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Skill-item-group {
+    display: flex;
+}
+
+
+@media (max-width: 860px) {
+    .About-Section {
+        transition: .02s;
+        margin-left: 0px;
+    }
+
+    .Exp-Section {
+        transition: .02s;
+        margin-left: 0px;
+    }
+
+    .Edu-Section {
+        transition: .02s;
+        margin-left: 0px;
+    }
+
+    .Skills-Section {
+        transition: .02s;
+        margin-left: 0px;
+    }
+
+    .Edu-degree {
+        width: 200px;
+        word-wrap: break-word;
+    }
+}
+
+
+
 
 /* Profile Section */
 
@@ -9,7 +377,7 @@
 
 /* About Section */
 
-.About-Section {
+/* .About-Section {
     background-color:white;
     outline-style: solid;
     outline-color: #cfcfcf;
@@ -40,11 +408,11 @@
 
 .About-Space {
     padding: 10px;
-}
+} */
 
 /* Experience Section */
 
-.Experience-txt {
+/* .Experience-txt {
     display:flex;
     padding: 10px;
     float: left; 
@@ -56,10 +424,10 @@
     outline-color: #cfcfcf;
     outline-width: thin;   
     width: 1000px;
-    height: 600px;
+    height: 750px;
     border-radius: 10px 10px 0px 0px;
-}
-
+} */
+ /* Not this */
 /* .Section-details {
     padding-right: 20px;
 } */
@@ -68,7 +436,10 @@
     font-weight: 500;
 } */
 
-.fas{
+ /* Not this */
+
+
+/* .fas{
     position: relative;
     left: 830px;
     top: 15px;
@@ -100,6 +471,7 @@
     font-size: 18px;
     font-weight: 500;
     top:5px;
+    
 }
 
 #title-edit {
@@ -115,4 +487,4 @@
 .Exp-info {
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
