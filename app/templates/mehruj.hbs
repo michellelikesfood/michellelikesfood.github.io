@@ -1,30 +1,136 @@
-{{! Mehruj, please fill out }}
-<style>
-  body{ background-color: #c8d9db; }
-</style>
-<div class="container-fluid">
+{{! <div class="container"> }}
+<div class="con">
 
-  <div class="coverphoto">
-    <img src="covercloud.jpg" class="img-fluid" alt="Responsive image" />
+  <h3>Genius is one percent inspiration and ninety-nine percent perspiration.</h3>
+  <hr />
+  <p class="author">Thomas Edison</p>
+  <div class="buttons"><a
+      class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?text=Hello%20world"
+    > Tweet</a>
+    <div class="camera1">
+      <div class="btn-group dropend">
+        <button
+          type="button"
+          class="camera dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img src="camera1.png" id="camera" alt="Responsive image" />
+        </button>
+        <ul class="dropdown-menu" id="dropdown-color">
+          <li><a class="dropdown-item" href="#">Upload Photo</a></li>
+          <li><a class="dropdown-item" href="#">Delete Photo</a></li>
+          <li><a class="dropdown-item" href="#">Customize Photo</a></li>
+        </ul>
+      </div>
+    </div>
+
   </div>
-  {{! dropdown }}
-  <div class="btn-group dropend">
-    <button
-      type="button"
-      class="camera dropdown-toggle"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      <img src="camera1.png" id="camera" alt="Responsive image" />
-    </button>
-    <ul class="dropdown-menu" id="dropdown-color">
-      <li><a class="dropdown-item" href="#">Upload Photo</a></li>
-      <li><a class="dropdown-item" href="#">Delete Photo</a></li>
-      <li><a class="dropdown-item" href="#">Customize Photo</a></li>
-    </ul>
+
+</div>
+
+<img src="pfp.jpg" alt="This is a small profile image of mk" class="avatar" />
+{{! head section }}
+<div class="flexy">
+  <div class="new-paragraph">
+    <h5 class="card-title">Mehruj Kamal</h5>
+    <p class="card-text">Student At CUNY Queens College
+      <a href="https://www.linkedin.com/school/queens-college/">
+        <img alt="linkedinlogo" src="linkedinlogo.png" width="20" height="20" />
+      </a>
+    </p>
+    <p>
+      New York City Metropolitan Area
+
+      <a
+        href="https://www.google.com/maps/place/Queens,+NY/@40.6509334,-74.011276,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24369470a592b:0x4109d18b6c5c7b05!8m2!3d40.7282239!4d-73.7948516"
+      >
+        <img alt="contact" src="map.jpg" width="20" height="20" />
+      </a>
+    </p>
+    <p style="color:blue"> 192 connections</p>
+    <div class="dropdown">
+      <button
+        class="button-21 dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Open To
+      </button>
+      <ul
+        class="dropdown-color dropdown-menu"
+        id="dropdown-color"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Hiring</a></li>
+        <li><a class="dropdown-item" href="#">Providing Services</a></li>
+      </ul>
+      <button
+        class="button-21 dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >+</button>
+      <ul
+        class="dropdown-menu"
+        id="dropdown-color"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Intro</a></li>
+        <li><a class="dropdown-item" href="#">About</a></li>
+        <li><a class="dropdown-item" href="#">Feature</a></li>
+        <li><a class="dropdown-item" href="#">Background</a></li>
+        <li><a class="dropdown-item" href="#">Skills</a></li>
+        <li><a class="dropdown-item" href="#">Accomplishments</a></li>
+        <li><a class="dropdown-item" href="#">Additional Info</a></li>
+        <li><a class="dropdown-item" href="#">Supported Language</a></li>
+      </ul>
+      <button
+        class="button-21 dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >More</button>
+      <ul
+        class="dropdown-menu"
+        id="dropdown-color"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Share Profile</a></li>
+        <li><a class="dropdown-item" href="#">Save as Pdf</a></li>
+        <li><a class="dropdown-item" href="#">Build a resume</a></li>
+
+      </ul>
+    </div>
   </div>
-  {{! dropdown end }}
-  <div class="card" id="roundcorners" style="width: 23rem;">
+  <div class="second-head">
+    <p>
+      Contact Information:
+
+      <a href="mailto:mehruj277@gmail.com">
+        <img alt="contact" src="contact.png" width="20" height="20" />
+      </a>
+    </p>
+    <p>
+      Software Engineer Intern at Linkedin
+      <a href="https://www.linkedin.com/company/linkedin/">
+        <img
+          alt="linkedin logo"
+          src="linkedinlogo.png"
+          width="20"
+          height="20"
+        />
+      </a>
+    </p>
+  </div>
+</div>
+
+{{!-- <div class="card" id="roundcorners" style="width: 20rem;">
 
     <img
       src="pfp.jpg"
@@ -54,7 +160,7 @@
       {{! <a href="#" class="btn btn-primary">Go somewhere</a> }}
       <div class="dropdown">
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -71,7 +177,7 @@
           <li><a class="dropdown-item" href="#">Providing Services</a></li>
         </ul>
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -92,7 +198,7 @@
           <li><a class="dropdown-item" href="#">Supported Language</a></li>
         </ul>
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -111,6 +217,24 @@
       </div>
 
     </div>
+  </div> --}}
+{{! <div style="width:300px">
+    <a
+      class="twitter-timeline"
+      href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
+    >Tweets by CUNY"></a>
+
+  </div> }}
+{{! <div id="myDIV" class="header">
+    <h2>Most Visited Links</h2>
+    <input type="text" id="myInput" placeholder="Title..." />
+    <span onclick="newElement()" class="addBtn">Add</span>
   </div>
 
-</div>
+  <ul id="myUL">
+    <li>LinedinLearning.com</li>
+    <li class="checked">Lynda.com</li>
+    <li>Udemy.com</li>
+    <li>Coursera.com</li>
+  </ul> }}
+{{! </div> }}
