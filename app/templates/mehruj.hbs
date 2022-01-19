@@ -1,28 +1,27 @@
 {{! Mehruj, please fill out }}
-<style>
-  body{ background-color: #c8d9db; }
-</style>
-<div class="container-fluid">
+
+<div class="container">
 
   <div class="coverphoto">
     <img src="covercloud.jpg" class="img-fluid" alt="Responsive image" />
+    <div class="btn-group dropend">
+      <button
+        type="button"
+        class="camera dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <img src="camera1.png" id="camera" alt="Responsive image" />
+      </button>
+      <ul class="dropdown-menu" id="dropdown-color">
+        <li><a class="dropdown-item" href="#">Upload Photo</a></li>
+        <li><a class="dropdown-item" href="#">Delete Photo</a></li>
+        <li><a class="dropdown-item" href="#">Customize Photo</a></li>
+      </ul>
+    </div>
   </div>
   {{! dropdown }}
-  <div class="btn-group dropend">
-    <button
-      type="button"
-      class="camera dropdown-toggle"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      <img src="camera1.png" id="camera" alt="Responsive image" />
-    </button>
-    <ul class="dropdown-menu" id="dropdown-color">
-      <li><a class="dropdown-item" href="#">Upload Photo</a></li>
-      <li><a class="dropdown-item" href="#">Delete Photo</a></li>
-      <li><a class="dropdown-item" href="#">Customize Photo</a></li>
-    </ul>
-  </div>
+
   {{! dropdown end }}
   <div class="card" id="roundcorners" style="width: 23rem;">
 
@@ -113,4 +112,11 @@
     </div>
   </div>
 
+  <div style="max-height:10px ; width:200px;">
+    <a
+      class="twitter-timeline"
+      href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
+    >Tweets by CUNY"></a>
+
+  </div>
 </div>
