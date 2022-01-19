@@ -1,29 +1,38 @@
-{{! Mehruj, please fill out }}
-
 <div class="container">
+  <div class="con">
 
-  <div class="coverphoto">
-    <img src="covercloud.jpg" class="img-fluid" alt="Responsive image" />
-    <div class="btn-group dropend">
-      <button
-        type="button"
-        class="camera dropdown-toggle"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-      >
-        <img src="camera1.png" id="camera" alt="Responsive image" />
-      </button>
-      <ul class="dropdown-menu" id="dropdown-color">
-        <li><a class="dropdown-item" href="#">Upload Photo</a></li>
-        <li><a class="dropdown-item" href="#">Delete Photo</a></li>
-        <li><a class="dropdown-item" href="#">Customize Photo</a></li>
-      </ul>
+    <h1>Genius is one percent inspiration and ninety-nine percent perspiration.</h1>
+    <hr />
+    <p class="author">Thomas Edison</p>
+    <div class="buttons"><a
+        class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?text=Hello%20world"
+      > Tweet</a>
+      <div class="camera1">
+        <div class="btn-group dropend">
+          <button
+            type="button"
+            class="camera dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="camera1.png" id="camera" alt="Responsive image" />
+          </button>
+          <ul class="dropdown-menu" id="dropdown-color">
+            <li><a class="dropdown-item" href="#">Upload Photo</a></li>
+            <li><a class="dropdown-item" href="#">Delete Photo</a></li>
+            <li><a class="dropdown-item" href="#">Customize Photo</a></li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-  </div>
-  {{! dropdown }}
 
-  {{! dropdown end }}
-  <div class="card" id="roundcorners" style="width: 23rem;">
+  </div>
+
+  <img src="pfp.jpg" alt="This is a small profile image of mk" class="avatar" />
+
+  {{!-- <div class="card" id="roundcorners" style="width: 20rem;">
 
     <img
       src="pfp.jpg"
@@ -53,7 +62,7 @@
       {{! <a href="#" class="btn btn-primary">Go somewhere</a> }}
       <div class="dropdown">
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -70,7 +79,7 @@
           <li><a class="dropdown-item" href="#">Providing Services</a></li>
         </ul>
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -91,7 +100,7 @@
           <li><a class="dropdown-item" href="#">Supported Language</a></li>
         </ul>
         <button
-          class="button-33 dropdown-toggle"
+          class="button-18 dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -110,13 +119,24 @@
       </div>
 
     </div>
-  </div>
-
-  <div style="max-height:10px ; width:200px;">
+  </div> --}}
+  {{! <div style="width:300px">
     <a
       class="twitter-timeline"
       href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
     >Tweets by CUNY"></a>
 
+  </div> }}
+  {{! <div id="myDIV" class="header">
+    <h2>Most Visited Links</h2>
+    <input type="text" id="myInput" placeholder="Title..." />
+    <span onclick="newElement()" class="addBtn">Add</span>
   </div>
+
+  <ul id="myUL">
+    <li>LinedinLearning.com</li>
+    <li class="checked">Lynda.com</li>
+    <li>Udemy.com</li>
+    <li>Coursera.com</li>
+  </ul> }}
 </div>
