@@ -1,10 +1,8 @@
-@import 'index.css';
-@import 'kevin.css';
-@import 'unaiza.css';
-@import 'jiamin.css';
+@import "index.css";
+@import "kevin.css";
+@import "unaiza.css";
+@import "jiamin.css";
 @import "mehrujcss.css";
-
-
 
 body {
   background-color: white;

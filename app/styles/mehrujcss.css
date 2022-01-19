@@ -1,6 +1,6 @@
-/* body {
+body {
   background-color: #c8d9db !important;
-} */
+}
 
 .avatar {
   height: 200px;
@@ -19,12 +19,13 @@
 .card {
   position: relative;
   background-color: #dceff2 !important;
-  margin-top: -2rem;
+  margin-top: 0rem;
   margin-left: 5rem;
   height: 27rem;
-  color: #090166;
+
   /* font-family: monospace; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
 }
 #roundcorners {
   border-radius: 25px;
@@ -64,10 +65,10 @@
 .camera {
   height: 0;
   width: 0;
-  right: 15rem;
-  left: auto;
-  top: 100px;
-  position: fixed;
+  left: 900px;
+  top: -80px;
+  position: relative;
+  z-index: 1;
 }
 #camera {
   height: 50px;
@@ -90,10 +91,8 @@
     top: 0px;
     z-index: 1;
   } */
-@media only screen and (max-width: 200px) {
+/* @media only screen and (max-width: 200px) {
   .coverphoto {
     width: 100%;
     /* object-fit: cover;
-      object-position: bottom; */
-  }
-}
+      /* object-position: bottom; */
