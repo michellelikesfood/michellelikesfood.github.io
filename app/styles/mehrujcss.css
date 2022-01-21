@@ -189,7 +189,6 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -209,7 +208,7 @@ ul li:hover {
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
+  background: rgb(202, 202, 202);
   color: #fff;
   text-decoration: line-through;
 }
@@ -237,15 +236,20 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: blue;
+  background-color: rgb(230, 53, 41);
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #bac5e5;
+  background-color: #eee;
+  /*  */
+  /* 
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%); */
   /* padding: 30px 40px; */
-  color: white;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  color: black;
   text-align: center;
 }
 
@@ -309,6 +313,83 @@ input {
   margin-top: 65px;
   margin-right: 10px;
 }
+
+/* RSVP Button  */
+.button-4 {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+/* Flex columns */
+.flex-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.first {
+  width: 73%;
+  height: 100vh;
+}
+
+.second {
+  width: 25%;
+}
+
 @media only screen and (max-width: 585px) {
   .second-head {
     margin-left: 20px;
