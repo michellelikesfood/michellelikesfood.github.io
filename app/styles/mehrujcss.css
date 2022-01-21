@@ -5,6 +5,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+.wrapper{
+  display: flex;
+}
+
+.left{
+
+  flex: 2;
+}
+
+.right{
+ flex: 1;
+}
+
+.two-column div {
+  border:1px solid blue; 
+  flex:1; 
+  text-align:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 /* .container {
   background-color: rgb(204, 235, 245);
 } */

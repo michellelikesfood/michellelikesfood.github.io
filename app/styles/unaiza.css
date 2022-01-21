@@ -10,6 +10,12 @@
   margin-top: 0;
 
 }
+@media (max-width: 860px) {
+  .Skills-Section {
+      transition: .02s;
+      margin-left: 0px;
+  }
+}
 .skill-icon {
   text-align: end;
   width:10%;
