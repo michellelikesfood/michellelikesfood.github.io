@@ -65,7 +65,7 @@ hr {
 }
 .tweet {
   border: 1px solid rgb(180, 178, 178);
-  border-radius: 10px;
+  border-radius: 7px;
 }
 .camera1 {
   display: flex;
@@ -238,7 +238,7 @@ ul li.checked::before {
 }
 .interest-list {
   border: 1px solid rgb(180, 178, 178);
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
 /* Clear floats after the header */
