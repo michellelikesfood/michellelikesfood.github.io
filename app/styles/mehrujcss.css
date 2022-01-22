@@ -227,11 +227,14 @@ ul li.checked::before {
 /* Style the header */
 .header {
   background-color: #eee;
-  padding-top: 5px;
-  margin-bottom: 5px;
-  color: black;
+  color: rgb(66, 65, 65);
   text-align: center;
+  font-weight: bold;
   border-radius: 10px;
+}
+
+.header2 {
+  padding-top: 15px;
 }
 .interest-list {
   border: 1px solid rgb(180, 178, 178);
