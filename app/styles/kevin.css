@@ -361,6 +361,104 @@
   }
 }
 
+/* Linkedin Licenses Section */
+
+.License-Section {
+  background-color: white;
+  outline-style: solid;
+  outline-color: #cfcfcf;
+  outline-width: thin;
+  height: auto;
+  transition: 0.02s;
+  padding-top: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Lic-title {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.Lic-title-icon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.Lic-sub-section {
+  display: flex;
+  padding-left: 20px;
+}
+
+.Lic-last-sub-section {
+  display: flex;
+  padding-left: 20px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.Lic-sub-title-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.Lic-logo {
+  width: 56px;
+  height: 56px;
+}
+
+.Lic-sub-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 2px;
+  margin-bottom: 2px;
+}
+
+.Lic-sub-content {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.Lic-company {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.Lic-year {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+
+.Lic-pdf {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #6e6e6e;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.Lic-last-pdf {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #6e6e6e;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Link-pdf {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Profile Section */
 
 /* About Section */

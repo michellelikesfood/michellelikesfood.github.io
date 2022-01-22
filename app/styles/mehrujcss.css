@@ -45,31 +45,14 @@
   z-index: -1;
 }
 h4 {
-  /* font-family: "Playfair Display", serif !important; */
+  font-family: "Playfair Display", serif !important;
   margin: 0;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
   color: rgb(28, 30, 36);
 }
-/* .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("/covercloud.jpg");
-  padding-top: 60px;
 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  width: 600px;
-  margin: 10px;
-} */
-
-.fa-quote-left {
-  font-size: 60px;
-  /* font-weight: 1000; */
-  color: royalblue;
-}
 .quote {
   text-align: center !important;
   font-style: italic;
@@ -98,14 +81,15 @@ hr {
   font-weight: 700;
   padding: 10px;
   margin-left: 20px;
-  /* background-color: rgb(223, 228, 235);
-  color: rgb(12, 10, 161);
-  border-radius: 4px; */
 }
+
 .twitter-share-button:hover {
   box-shadow: #09223b;
 }
-
+.tweet {
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 7px;
+}
 .camera1 {
   display: flex;
   justify-content: end;
@@ -212,7 +196,6 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -232,7 +215,7 @@ ul li:hover {
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
+  background: rgb(202, 202, 202);
   color: #fff;
   text-decoration: line-through;
 }
@@ -260,16 +243,25 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: blue;
+  background-color: rgb(230, 53, 41);
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #bac5e5;
-  /* padding: 30px 40px; */
-  color: white;
+  background-color: #eee;
+  color: rgb(66, 65, 65);
   text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.header2 {
+  padding-top: 15px;
+}
+.interest-list {
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 7px;
 }
 
 /* Clear floats after the header */
@@ -327,12 +319,93 @@ input {
   border: 1px solid rgb(180, 178, 178);
   border-radius: 10px;
   margin-top: -85px;
-  margin-bottom: 20px;
 }
 .second-head {
   margin-top: 65px;
   margin-right: 10px;
 }
+
+/* RSVP Button  */
+.button-4 {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+/* Flex columns */
+.flex-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.first {
+  width: 70%;
+  height: 100vh;
+}
+
+.second {
+  width: 27%;
+}
+
+/* ADVERTISEMENT */
+#ad-image {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 585px) {
   .second-head {
     margin-left: 20px;
