@@ -64,6 +64,7 @@ hr {
   box-shadow: #09223b;
 }
 .tweet {
+  margin-top: 20px;
   border: 1px solid rgb(180, 178, 178);
   border-radius: 7px;
 }
@@ -81,9 +82,10 @@ hr {
 }
 #camera {
   position: relative;
-  height: 35px;
-  width: 35px;
-  margin-left: -50px;
+  height: 25px;
+  width: 25px;
+  margin-left: -30px;
+  margin-top: 10px;
 }
 #dropdown-color {
   box-shadow: 7px 7px 5px 5px grey;
@@ -178,6 +180,7 @@ hr {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  list-style-type: none;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
