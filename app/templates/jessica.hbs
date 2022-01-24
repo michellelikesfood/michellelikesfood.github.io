@@ -1,106 +1,119 @@
-Jessica, please fill out
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-crossorigin="anonymous">
+  <div class="row ">
+      <div class="col-md-8">
 
-
-{{!-- Jessica, please fill out --}}
-
-<style>
-    {{!-- css here --}}
-    .paragraph{
-        background-color: rgb(222, 230, 230);
-    }
-
-body {
-  background-color: white;
-}
-
-h1 {
-  color: black;
-  text-align: left;
-}
-
-p {
-  font-family: verdana;
-  font-size: 14px;
-}
-#mkborder{
-    outline-style: solid;
-    outline-color: rgb(223, 219, 219);
-    
-}
-</style>
-
-
-<p class= "paragraph">
- My name is Jessica</p>
-<i class="fas fa-pencil-alt"></i>
-
-
-
-<div class = " ml-0 container  border">
-{{!-- mr-4 text-centertext-wrap --}}
-    ABOUT
-
-        <div class = "col  ">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-        
-        
-   </div>
-   
-             <div class="col-md-12 text-right ">
-         <button type="button" class="btn-sm btn-outline-secondary ml-5 " onclick="myFunction()"  id="myBtn">... see more</button>
+<Jessica::topprofile/>
+<Jessica::About/>
+ <Jessica::Technicalskills/>
+<Jessica::Project/>
+<Jessica::skills/>
+<Jessica::Learning/>
+ <Jessica::experience/>
+ <Jessica::Licenses/>
     </div>
+
+     <div class="col-md-4 mt-3">
+
+       {{!-- START OF CONNECT SECTION --}}
+      <div class="connect_section">
+
+        <div class="Container Edu-sub-title-icon">
+          <h6>LinkedIn U connections</h6>
+          <i id="pen-edit" class="fas fa-pen"></i>
+        </div>
+
+      <div class= "clearfix">
+          <img  src="Kevin.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class=" float-left profileconnect "
+      />
+       
+          <h6 class= "text">Kevin Rojas</h6>
+          <h6 class= "text2"> Linkedin SWE intern| Google CSSI'2021 </h6>
+    <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+
 </div>
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+      <div class= "clearfix">
+    
+          <img  src="Unaiza.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Unaiza Nizami</h6>
+    <h6 class= "text2"> Linkedin SWE intern|Fellow at CTP  </h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
-{{!-- 
-<div class="container">
-  <div class="row">
-    <div class="col align-self-start">
-      One of three columns
-    </div>
-    <div class="col align-self-center">
-      One of three columns
-    </div>
-    <div class="col align-self-end">
-      One of three columns
-    </div>
-  </div>
-</div> --}}
-{{!-- <div class="card" style="width: 400px;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div> --}}
-{{!-- <div id="mkborder" >
-<h1>ABOUT</h1>
-<p>I am a student at Baruch College. President of Phi Theta Kappa. My major is Industrial Organizational Psychology.  I am looking to connect with mentors in the Tech space and fellow alumni.</p>
-</div> --}}
+</div>
 
-<button type="button" class="btn-sm btn-outline-secondary">...See more</button>
+
+      <div class= "clearfix">
+    
+          <img  src="jessica.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Jessica Delgado</h6>
+    <h6 class= "text2"> Linkedin SWE intern| Industrial Organizational Psycology </h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+
+</div>
+<button class="btnconnect info">Show more connections -></button>
+
+      </div>
+
+{{!-- endd of connect section --}} {{! events you migh tbe interested in  }}
+ {{! copy from here }}
+
+      <div id="myDIV" class="header header2">
+        <p>Events You Might Be Interested In</p>
+      </div>
+
+      <ul id="myUL" class="interest-list event-ul">
+        <li style="font-size: 9pt">
+          <img src="WIT1.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women In Tech- CUNY Chapter</b>
+          <br />
+          Feb 1st 2022, 4pm
+          <br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li class="checked" style="font-size: 9pt">
+          <img src="WIT2.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women Who Code</b>
+          <br />
+          Dec 1st 2021, 1pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li style="font-size: 9pt">
+          <img src="WIT3.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Python Bootcamp</b>
+          <br />
+          Jan 29th 2022, 2pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+      </ul>
+
+  <div class="tweet">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
+        >Tweets by CUNY"></a>
+
+      </div>
+
+      <img
+        src="ad.png"
+        alt="Job Advertisement"
+        width="100%;"
+        height="250"
+        id="ad-image"
+      />
+
+
+    </div> 
+ 
+  </div>
+<Jessica::footer/>
