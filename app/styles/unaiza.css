@@ -1,3 +1,19 @@
+
+.image {
+  flex-basis: 40%
+}
+.text {
+  font-size: 10px;
+  padding-left: 20px;
+text-align: left;
+padding-top: 10pt;
+font-weight: bold;
+}
+.text2 {
+  font-size: 10px;
+  padding-left: 20px;
+text-align: left;
+}
 .btnskill {
   border: none;
   background-color: inherit;
@@ -7,6 +23,18 @@
   display: inline-block;
   margin-left: 50%;
   margin-top: 0;
+}
+.imagecode{
+  margin-right: 10pt;
+  margin-top: 5pt;
+}
+.title-icon {
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 12pt;
+
 }
 @media (max-width: 860px) {
   .Skills-Section {
@@ -74,6 +102,18 @@
   margin: 50px;
 }
 
+.profileconnect {
+
+  z-index: 0;
+  height: 65px;
+  width: 4rem;
+  border-radius: 50%;
+  border: 7px solid white;
+  text-align: center;
+}
+
+
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -87,7 +127,7 @@
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
-h6 {
+.lightcolor {
   color: rgb(156, 150, 150);
   font-family: sans-serif;
 }
@@ -130,7 +170,87 @@ h6 {
   padding-bottom: 10px;
 }
 
+
+
+
+.section {
+  background-color: white;
+  outline-style: solid;
+  outline-color: #cfcfcf;
+  outline-width: thin;
+  /* max-width: 800px;
+  min-width: 350px; */
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  transition: 0.02s;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.connect_section {
+  background-color: white;
+  outline-style: solid;
+  outline-color: #cfcfcf;
+  outline-width: thin;
+  /* max-width: 800px;
+  min-width: 350px; */
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  transition: 0.02s;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
 /* CSS */
+.btnconnect {
+  border: none;
+  color: dodgerblue;
+  background-color: inherit;
+  padding: 5px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btnconnect:hover {background: #eee;}
+
+
+
+
+.buttonconnect {
+  background-color: rgb(240, 240, 240);
+  border-color: rgb(80, 114, 224);
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(11, 87, 201);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonconnect:hover {
+  background-color: #7fa9da;
+  color: #fff;
+}
+
 .button-81 {
   background-color: rgb(240, 240, 240);
   border-color: rgb(76, 76, 214);

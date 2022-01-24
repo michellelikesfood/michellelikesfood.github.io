@@ -44,7 +44,7 @@
   background-color: white;
   z-index: -1;
 }
-h4 {
+.header4 {
   font-family: "Playfair Display", serif !important;
   margin: 0;
   font-weight: 300;
@@ -416,4 +416,22 @@ input {
   h4 {
     padding-left: 10px;
   }
+}
+
+@media screen and (max-width: 600px) {
+.flex-main{
+  width: 100%;
+  flex-direction: column;
+  justify-content:left;
+  flex-wrap:nowrap;
+}
+div, span {
+  display: inline-block;
+}
+.second{
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  height:auto;
+}
 }

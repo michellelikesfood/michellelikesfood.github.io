@@ -1,94 +1,339 @@
-{{!-- Jessica, please fill out
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="container">
+  <div class="flex-main">
+    <div class="first">
+     
+ <Unaiza::topprofile/>
+      <Unaiza::about/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-crossorigin="anonymous">
+{{!-- technical skills --}}
 
+ {{! skills }}
 
-{{!-- Jessica, please fill out --}}
+      <div class="skills_section">
 
-<style>
-    {{!-- css here --}}
-    .paragraph{
-        background-color: rgb(222, 230, 230);
-    }
+        <div class="Container Edu-sub-title-icon">
+          <h5>Tools &amp; Technology</h5>
+          <button tabindex="0"  onclick="alert('Add a skill')"class="btnskill default">Add a technology</button>
+          <i id="pen-edit" class="fas fa-pen"></i>
 
-body {
-  background-color: white;
-}
+        </div>
 
-h1 {
-  color: black;
-  text-align: left;
-}
+        <button  tabindex="0" type="button"   class="button-81">Take a technology quiz</button>
+        {{! <button  type="button" class="button-81" data-bs-toggle="modal" data-bs-target="#staticBackdrop"    >Take a skill quiz</button> }}
 
-p {
-  font-family: verdana;
-  font-size: 14px;
-}
-#mkborder{
-    outline-style: solid;
-    outline-color: rgb(223, 219, 219);
+        <p class="Section-details">
+          <div class = "col title-icon">
+                <img src="os.png" alt="operating system" height="30px"/>
+        <h6>Operation System</h6>
+     
+        </div>
+          <p>Mac OS <br>
+            Windows<br>
+          Linix</p>
+        </p>
+        <p class="Section-details">
+
+                 <div class = "col title-icon">
+                        <img src="framwork.png" alt="Frame work" height="30px"/>
+       <h6>Frameworks</h6>
     
-}
-</style>
-
-
-<p class= "paragraph">
- My name is Jessica</p>
-<i class="fas fa-pencil-alt"></i>
-
-
-
-<div class = " ml-0 container  border">
-{{!-- mr-4 text-centertext-wrap --}}
-    ABOUT
-
-        <div class = "col  ">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-        
-        
-   </div>
-   
-             <div class="col-md-12 text-right ">
-         <button type="button" class="btn-sm btn-outline-secondary ml-5 " onclick="myFunction()"  id="myBtn">... see more</button>
+        </div>
+       
+           <p>bootstrap<br>
+              Express.js<br>
+              React</p>
+        </p>
+              <p class="Section-details">
+                
+                 <div class = "col title-icon">
+       <h6>Coding Language </h6>
     </div>
+ <img src="html.png" alt="Frame work" height="40px" class= "imagecode"/>
+ <img src="java.png" alt="Frame work" height="40px" class= "imagecode"/>
+ <img src="js.png" alt="Frame work" height="40px" class= "imagecode"/>
+        
+             </p>
+      </div>
+      {{! skills }}
+
+      <div class="skills_section">
+
+        <div class="Container Edu-sub-title-icon">
+          <h5>Skills and endorsement</h5>
+          <button tabindex="0"  onclick="alert('Add a skill')"class="btnskill default">Add a skill</button>
+          <i id="pen-edit" class="fas fa-pen"></i>
+
+        </div>
+
+        <button  tabindex="0" type="button"   class="button-81">Take a skill quiz</button>
+        {{! <button  type="button" class="button-81" data-bs-toggle="modal" data-bs-target="#staticBackdrop"    >Take a skill quiz</button> }}
+
+        <p class="Section-details">
+          Microsoft word
+          <h6 class ="lightcolor"> - endorse by .......</h6>
+        </p>
+        <p class="Section-details">
+          Microsoft powerpoint
+          <h6 class = "lightcolor"> - endorse by .......</h6>
+        </p>
+      </div>
+
+      {{! *********** Project section ************ }}
+      <div class="c">
+
+        <div class="c-header">
+          <div class="btn1">
+            <i class="fas fa-plus"></i>
+          </div>
+          <h2>Project</h2>
+        </div>
+
+        <div class="btn2">
+          <i class="fas fa-pen"></i>
+        </div>
+
+        <br />
+        <div class="timeline">
+          <div class="container1 right">
+            <div class="content">
+              <h4>
+                LinkedIn
+                <img
+                  src="linkedin-logo1.jpg"
+                  alt="linkedin-logo"
+                  height="20px"
+                />
+              </h4>
+              <h6 class="datetext-color">Jan 2022 - Present</h6>
+              <p>Five interns worked together for three weeks on a LinkedIn
+                profile created specifically for students to find jobs and make
+                connections with others using Ember.js, HTML, CSS, and
+                JAVASCRIPT.</p>
+              <br />
+              <div class="right-bottom">
+                <a href="#">
+                  See my project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container1 right">
+            <div class="content">
+              <h4>
+                CSC 211
+                <img src="bmcc-logo.jpg" alt="bmcc" height="40px" />
+              </h4>
+              <h6 class="datetext-color">Dec 2021 - Dec 2021</h6>
+              <p>Independently complete the final project for CSC 211 in one
+                week. create a Date Project in C++ so that it can calculate what
+                day of the week any date is, how many days have passed in the
+                year, how many days are left, and what day all holidays are in
+                any year, etc.</p>
+              <br />
+              <div class="right-bottom">
+                <a href="#">
+                  See my project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container1 right">
+            <div class="content">
+              <h4>
+                CIS 385
+                <img src="bmcc-logo.jpg" alt="bmcc" height="40px" />
+              </h4>
+              <h6 class="datetext-color">Nov 2021 - Dec 2021</h6>
+              <p>Independently complete a dynamic web page in three weeks, using
+                HTML, CSS, JAVASCRIPT to make it work as a normal shopping
+                process. For example: adding to the shopping cart, adding and
+                removing items, calculating the final additions, completing the
+                purchase, etc.</p>
+              <br />
+              <div class="right-bottom">
+                <a href="#">
+                  See my project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container1 right">
+            <div class="content">
+              <h4>
+                CSC 101
+                <img src="bmcc-logo.jpg" alt="bmcc" height="40px" />
+              </h4>
+              <h6 class="datetext-color">Nov 2020 - Dec 2020</h6>
+              <p>Complete the introduction of Android development system and
+                additional extensions in one month. Introducing Application
+                Framework, Libraries, Android Runtime, Linux Kernel, etc.</p>
+              <br />
+              <div class="right-bottom">
+                <a href="#">
+                  See my project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      {{! *********** Project section end here ************ }}
+      {{! ****** Learning section start ******* }}
+
+      <div class="c">
+        <div class="c-header">
+          <div class="btn1">
+            <i class="fas fa-plus"></i>
+          </div>
+          <p><b>LinkedIn Learning Course</b></p>
+        </div>
+
+        <div class="btn2">
+          <i class="fas fa-pen"></i>
+        </div>
+
+        <br />
+        <div class="c-body">
+
+          <div id="left1">
+            <img src="SQL-logo.jpg" alt="SQL-logo" height="60px" />
+          </div>
+          <div id="right1">
+            <h5 class="c-title">
+              SQL Essential Traning</h5>
+            <h6 class="c-text2">Completed 01/10/2022</h6>
+            <hr />
+          </div>
+
+          <div id="left1">
+            <img src="python-logo.jpg" alt="python-logo" height="60px" />
+          </div>
+          <div id="right1">
+            <h5 class="c-title">
+              Learning Python (2020)</h5>
+            <h6 class="c-text2">Completed 12/05/2021</h6>
+            <hr />
+          </div>
+
+          <div id="left1">
+            <img src="excel-logo.jpg" alt="excel-logo" height="60px" />
+          </div>
+          <div id="right1">
+            <h5 class="c-title">
+              Excel: Lookup Function in Depth</h5>
+            <h6 class="c-text2">Completed 08/14/2021</h6>
+          </div>
+        </div>
+
+      </div>
+      {{! ****** Learning section end here ******* }}
+
+      {{! footer }}
+      <Unaiza::footer/>
+    </div>
+    {{! end of first column }}
+    <div class="second">
+      {{! events you migh tbe interested in  }}
+      
+      {{! skills }}
+
+      <div class="connect_section">
+
+        <div class="Container Edu-sub-title-icon">
+          <h6>LinkedIn U connections</h6>
+          <i id="pen-edit" class="fas fa-pen"></i>
+        </div>
+
+      <div class= "clearfix">
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class=" float-left profileconnect "
+      />
+       
+          <h6 class= "text"> Shasha Brito</h6>
+          <h6 class= "text2">  Software engineer</h6>
+    <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+
 </div>
 
-<script>
+      <div class= "clearfix">
+    
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Shashita Brito</h6>
+    <h6 class= "text2"> Software engineer</h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
 
-</script>
-{{!-- 
-<div class="container">
-  <div class="row">
-    <div class="col align-self-start">
-      One of three columns
-    </div>
-    <div class="col align-self-center">
-      One of three columns
-    </div>
-    <div class="col align-self-end">
-      One of three columns
+</div>
+
+
+      <div class= "clearfix">
+    
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Shashita Brito</h6>
+    <h6 class= "text2"> Software engineer</h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+
+</div>
+<button class="btnconnect info">Show more connections -></button>
+
+      </div>
+
+
+      <div id="myDIV" class="header header2">
+        <p>Events You Might Be Interested In</p>
+      </div>
+
+      {{!-- <ul id="myUL" class="select interest-list">
+        <li style="font-size: 9pt">
+          <img src="WIT1.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women In Tech- CUNY Chapter</b>
+          <br />
+          Feb 1st 2022, 4pm
+          <br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li class="checked select" style="font-size: 9pt">
+          <img src="WIT2.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women Who Code</b>
+          <br />
+          Dec 1st 2021, 1pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li style="font-size: 9pt">
+          <img src="WIT3.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Python Bootcamp</b>
+          <br />
+          Jan 29th 2022, 2pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+      </ul> --}}
+
+      {{! Twitter Api }}
+      <div class="tweet">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
+        >Tweets by CUNY"></a>
+
+      </div>
+
+      <img
+        src="ad.png"
+        alt="Job Advertisement"
+        width="100%;"
+        height="250"
+        id="ad-image"
+      />
+
     </div>
   </div>
-</div> --}}
-{{!-- <div class="card" style="width: 400px;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div> --}}
-{{!-- <div id="mkborder" >
-<h1>ABOUT</h1>
-<p>I am a student at Baruch College. President of Phi Theta Kappa. My major is Industrial Organizational Psychology.  I am looking to connect with mentors in the Tech space and fellow alumni.</p>
-</div> --}}
-
-<button type="button" class="btn-sm btn-outline-secondary">...See more</button> --}}
-
-
+</div>
