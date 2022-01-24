@@ -1,13 +1,13 @@
-@import 'index.css';
-@import 'kevin.css';
-@import 'unaiza.css';
+@import "index.css";
+@import "kevin.css";
+@import "unaiza.css";
+@import "jiamin.css";
 @import "mehrujcss.css";
 
-
-
 body {
-  background-color: white;
+  background-color: rgb(247, 14, 14);
   font-family: "Source Sans Pro", sans-serif;
+
   margin: 0;
   font-weight: 300;
   font-size: 18px;
@@ -27,6 +27,7 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   background-color: #f5f5f5;
   padding: 15px;
+  z-index: 1;
 }
 
 .global-nav__content {

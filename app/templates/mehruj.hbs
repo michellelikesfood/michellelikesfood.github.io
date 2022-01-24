@@ -1,116 +1,119 @@
-{{! Mehruj, please fill out }}
-<style>
-  body{ background-color: #c8d9db; }
-</style>
-<div class="container-fluid">
 
-  <div class="coverphoto">
-    <img src="covercloud.jpg" class="img-fluid" alt="Responsive image" />
-  </div>
-  {{! dropdown }}
-  <div class="btn-group dropend">
-    <button
-      type="button"
-      class="camera dropdown-toggle"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      <img src="camera1.png" id="camera" alt="Responsive image" />
-    </button>
-    <ul class="dropdown-menu" id="dropdown-color">
-      <li><a class="dropdown-item" href="#">Upload Photo</a></li>
-      <li><a class="dropdown-item" href="#">Delete Photo</a></li>
-      <li><a class="dropdown-item" href="#">Customize Photo</a></li>
-    </ul>
-  </div>
-  {{! dropdown end }}
-  <div class="card" id="roundcorners" style="width: 23rem;">
+  <div class="row ">
+      <div class="col-md-8">
 
-    <img
-      src="pfp.jpg"
-      alt="This is a small profile image of mk"
-      class="avatar"
-    />
-
-    <div class="card-body">
-      <h5 class="card-title">Mehruj Kamal</h5>
-      <p class="card-text">Student At CUNY Queens College
-        <a href="https://www.linkedin.com/school/queens-college/">
-          <img
-            alt="linkedinlogo"
-            src="linkedinlogo.png"
-            width="20"
-            height="20"
-          />
-        </a>
-      </p>
-      <p>
-        New York City Metropolitan Area
-
-        <a href="mailto:mehruj277@gmail.com">
-          <img alt="contact" src="contact.png" width="20" height="20" />
-        </a>
-      </p>
-      {{! <a href="#" class="btn btn-primary">Go somewhere</a> }}
-      <div class="dropdown">
-        <button
-          class="button-33 dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Open To
-        </button>
-        <ul
-          class="dropdown-color dropdown-menu"
-          id="dropdown-color"
-          aria-labelledby="dropdownMenuButton1"
-        >
-          <li><a class="dropdown-item" href="#">Hiring</a></li>
-          <li><a class="dropdown-item" href="#">Providing Services</a></li>
-        </ul>
-        <button
-          class="button-33 dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >+</button>
-        <ul
-          class="dropdown-menu"
-          id="dropdown-color"
-          aria-labelledby="dropdownMenuButton1"
-        >
-          <li><a class="dropdown-item" href="#">Intro</a></li>
-          <li><a class="dropdown-item" href="#">About</a></li>
-          <li><a class="dropdown-item" href="#">Feature</a></li>
-          <li><a class="dropdown-item" href="#">Background</a></li>
-          <li><a class="dropdown-item" href="#">Skills</a></li>
-          <li><a class="dropdown-item" href="#">Accomplishments</a></li>
-          <li><a class="dropdown-item" href="#">Additional Info</a></li>
-          <li><a class="dropdown-item" href="#">Supported Language</a></li>
-        </ul>
-        <button
-          class="button-33 dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >More</button>
-        <ul
-          class="dropdown-menu"
-          id="dropdown-color"
-          aria-labelledby="dropdownMenuButton1"
-        >
-          <li><a class="dropdown-item" href="#">Share Profile</a></li>
-          <li><a class="dropdown-item" href="#">Save as Pdf</a></li>
-          <li><a class="dropdown-item" href="#">Build a resume</a></li>
-
-        </ul>
-      </div>
-
+<Mehruj::topprofile/>
+<Mehruj::About/>
+ <Mehruj::Technicalskills/>
+<Mehruj::Project/>
+<Mehruj::skills/>
+<Mehruj::Learning/>
+ <Mehruj::experience/>
+ <Mehruj::Licenses/>
     </div>
-  </div>
+
+     <div class="col-md-4 mt-3">
+
+       {{!-- START OF CONNECT SECTION --}}
+      <div class="connect_section">
+
+        <div class="Container Edu-sub-title-icon">
+          <h6>LinkedIn U connections</h6>
+          <i id="pen-edit" class="fas fa-pen"></i>
+        </div>
+
+      <div class= "clearfix">
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class=" float-left profileconnect "
+      />
+       
+          <h6 class= "text"> Shasha Brito</h6>
+          <h6 class= "text2">  Software engineer</h6>
+    <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
 
 </div>
+
+      <div class= "clearfix">
+    
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Shashita Brito</h6>
+    <h6 class= "text2"> Software engineer</h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+</div>
+
+
+      <div class= "clearfix">
+    
+          <img  src="profilepic.jpg"
+        alt="Profilepic of "
+        align= "left"
+        class="float-left profileconnect"
+      />
+    <h6 class= "text"> - Shashita Brito</h6>
+    <h6 class= "text2"> Software engineer</h6>
+         <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
+
+
+</div>
+<button class="btnconnect info">Show more connections -></button>
+
+      </div>
+
+{{!-- endd of connect section --}} {{! events you migh tbe interested in  }}
+ {{! copy from here }}
+
+      <div id="myDIV" class="header header2">
+        <p>Events You Might Be Interested In</p>
+      </div>
+
+      <ul id="myUL" class="interest-list event-ul">
+        <li style="font-size: 9pt">
+          <img src="WIT1.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women In Tech- CUNY Chapter</b>
+          <br />
+          Feb 1st 2022, 4pm
+          <br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li class="checked" style="font-size: 9pt">
+          <img src="WIT2.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Women Who Code</b>
+          <br />
+          Dec 1st 2021, 1pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+        <li style="font-size: 9pt">
+          <img src="WIT3.jpg" alt="WIT" width="30" height="30" /><b>
+            &nbsp; Python Bootcamp</b>
+          <br />
+          Jan 29th 2022, 2pm<br />
+          <button class="button-4" style="font-size: 10pt">+RSVP</button></li>
+      </ul>
+
+  <div class="tweet">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
+        >Tweets by CUNY"></a>
+
+      </div>
+
+      <img
+        src="ad.png"
+        alt="Job Advertisement"
+        width="100%;"
+        height="250"
+        id="ad-image"
+      />
+
+
+    </div> 
+ 
+  </div>
+<Mehruj::footer/>
