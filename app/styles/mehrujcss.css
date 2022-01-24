@@ -222,7 +222,7 @@ hr {
   padding: 12px 16px 12px 16px;
 }
 
-.close:hover {
+.event-ul.close:hover {
   background-color: rgb(230, 53, 41);
   color: white;
 }
@@ -366,7 +366,7 @@ input {
 }
 
 /* Flex columns */
-.flex-main {
+/* .flex-main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -379,14 +379,14 @@ input {
 
 .second {
   width: 27%;
-}
+} */
 
 /* ADVERTISEMENT */
 #ad-image {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 967px) {
   .second-head {
     margin-left: 20px;
     margin-top: 10px;
