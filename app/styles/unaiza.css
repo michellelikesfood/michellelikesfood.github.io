@@ -288,3 +288,14 @@
       max-width: 0;
     }
   } */
+
+
+  .btn-group button {
+   margin:0;
+    margin-right: 3pt;
+    padding: 5px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-size: 7pt;
+  }
+ 
