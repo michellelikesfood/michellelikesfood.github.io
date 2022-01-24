@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     
-<meta name="linkedin-sprinterns-2022/config/environment" content="%7B%22modulePrefix%22%3A%22linkedin-sprinterns-2022%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Afalse%7D%2C%22APP%22%3A%7B%22name%22%3A%22linkedin-sprinterns-2022%22%2C%22version%22%3A%220.0.0%2Bf6b62337%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22isModuleUnification%22%3Afalse%7D" />
+<meta name="linkedin-sprinterns-2022/config/environment" content="%7B%22modulePrefix%22%3A%22linkedin-sprinterns-2022%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%7D%2C%22APP%22%3A%7B%22name%22%3A%22linkedin-sprinterns-2022%22%2C%22version%22%3A%220.0.0%2B0096ca48%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22isModuleUnification%22%3Afalse%7D" />
 
     <link integrity="" rel="stylesheet" href="/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css" />
     <link
@@ -34,27 +34,98 @@
   <body>
     
 
-    <script src="/assets/vendor-c64162351ac9600a5a69b08af88e4ad7.js" integrity="sha256-oHburir8jOBrs9m2AXYH3TnoJavjWhcHCRv5/B02yxE= sha512-gAxrOiwqIjrYux4iejL1gqJKLJU1F0WxedOCAF6abNRtJLyWwFIqiev1DcISHL+oWwOqUXBjvxDi1b189khwXw==" ></script>
-    <script src="/assets/linkedin-sprinterns-2022-56056f4b219afe11d5a039a9c9d7515c.js" integrity="sha256-jjidRmW6W21Ljzf5iY3MHAI0KqduOKHbBE8dN0W4Ov8= sha512-ce7/TCLPRpcLnsNzFHx1K5JUeCXxXSUJG79Euk9WnwI180wiC1xMCr32M+7qx5U6PKYVIY/ZU9icWlcKHZdKjA==" ></script>
+    <script src="/assets/vendor-15cc0dca1f514f0a1358e3b0e552cbdf.js" integrity="sha256-50je175LRQlcwEdeoUadVNwyGilDKbnnook8QiaPplM= sha512-VMfL7bnoAn2yd/nTppDagDK7zC1Gv15UUS6ii8R2kRgW59G19LQ5leBF/LTc1n2igA9Nyw52L7suTmqIvqi4TQ==" ></script>
+    <script src="/assets/linkedin-sprinterns-2022-5979febb1d291fe2e40a622f63b5401b.js" integrity="sha256-IPPjdiKy4pCPkUGD4BaWo+oGAK5owqz//10xWHsltgw= sha512-JW8EbEr5+vp0n2lI9EC4o3D2kvDPLFx2neGqwCiScuQ+DGbgkiIUBEZXgYN9gnTeUswY+EOMgF1IDjIZ/fP64g==" ></script>
     <script
       src="https://kit.fontawesome.com/c1768c8ff5.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8" -->
-    </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!-- twitter script -->
     <script
       async
       src="https://platform.twitter.com/widgets.js"
       charset="utf-8"
     ></script>
+
+    <!-- Read More Button Start Here -->
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+    <!-- Read More Button End Here -->
 
     
   </body>
