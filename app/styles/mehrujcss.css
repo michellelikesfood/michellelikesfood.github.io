@@ -5,29 +5,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-.wrapper{
-  display: flex;
-}
-
-.left{
-
-  flex: 2;
-}
-
-.right{
- flex: 1;
-}
-
-.two-column div {
-  border:1px solid blue; 
-  flex:1; 
-  text-align:center;
-
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
 /* .container {
   background-color: rgb(204, 235, 245);
 } */
@@ -183,13 +160,13 @@ hr {
 }
 
 /* new addition */
-ul {
+.event-ul {
   margin: 0;
   padding: 0;
 }
 
 /* Style the list items */
-ul li {
+.event-ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -204,24 +181,24 @@ ul li {
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
+.event-ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-ul li:hover {
+.event-ul li:hover {
   background: #ddd;
 }
 
 /* When clicked on, add a background color and strike out text */
-ul li.checked {
+.event-ul li.checked {
   background: rgb(202, 202, 202);
   color: #fff;
   text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-ul li.checked::before {
+.event-ul li.checked::before {
   content: "";
   position: absolute;
   border-color: #fff;
@@ -413,25 +390,7 @@ input {
   }
 }
 @media only screen and (max-width: 700px) {
-  h4 {
+  .header4 {
     padding-left: 10px;
   }
-}
-
-@media screen and (max-width: 600px) {
-.flex-main{
-  width: 100%;
-  flex-direction: column;
-  justify-content:left;
-  flex-wrap:nowrap;
-}
-div, span {
-  display: inline-block;
-}
-.second{
-  width: 100%;
-  overflow: hidden;
-  display: inline-block;
-  height:auto;
-}
 }
