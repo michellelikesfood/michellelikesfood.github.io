@@ -7,9 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('kevin', { path: '/kevin-rojas' });
-  this.route('jiamin', { path: '/jiamin-shi' });
-  this.route('jessica', { path: '/jessica-delgado' });
-  this.route('unaiza', { path: '/unaiza-nizami' });
-  this.route('mehruj', { path: '/mehruj-kamal' });
+  this.route('main', { path: '/main-profile' });
+  this.route('secondary', { path: '/secondary-profile' });
 });
