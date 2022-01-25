@@ -1,15 +1,53 @@
-
+<div class= "container">
   <div class="row ">
       <div class="col-md-8">
 
-<Unaiza::topprofile/>
-<Unaiza::About/>
- <Unaiza::Technicalskills/>
-<Unaiza::Project/>
-<Unaiza::skills/>
-<Unaiza::Learning/>
- <Unaiza::experience/>
- <Unaiza::Licenses/>
+<Profile @image="Unaiza.jpg" @infoalt = "This is profile image of Unaiza Nizami."
+@name="Unaiza Nizami" @headline="SWE intern at Linkedin| CTP fellow"@college="https://www.linkedin.com/school/queens-college/" @mail="mailto:unaizanadeem898@gmail.com"
+@title="Software Engineer Intern at Linkedin"   />
+<About @about="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                  sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+                  adipisci velit" @moreabout=", sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                  magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem 
+                  ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem 
+                  vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"/>
+
+
+
+
+                                
+                <div class="Exp-Section">
+                
+                <Education  @collegeimage= "Hunter_logo.jpeg" @college="Hunter College" @degree= "Bachelor of Arts - BA, Computer Science" @year="2021 - 2025" @highschooljpg="Aviation_logo.jpeg"  @highschool="Aviation High School" @schoolyear="2017 - 2021"  />
+                <Experience @image= "Linkedin_logo.jpeg" @position="Software Engineer Intern" @company="Linkedin" @internship = "Internship" @date="Jan 2022 - Present" @place="New York, New York, United States" @about="-Developing a Linkedin Profile for students"/>
+               <Experience @image= "Google_logo.jpeg" @position="Software Engineer Intern" @company="Google" @internship = "Internship" @date="Jan 2022 - Present" @place="New York, New York, United States" @about="-Developing a Linkedin Profile for students"/>
+          
+               <Experience @image= "RippleMatch_logo.jpeg" @position="Software Engineer Intern" @company="Ripple Match" @internship = "Internship" @date="Jan 2022 - Present" @place="New York, New York, United States" @about="-Developing a Linkedin Profile for students"/>
+          
+          
+            </div>
+ <Technicalskills/>
+<Project/>
+        <div class="Skills-Section">    
+                <div class="Skill-title-icon">
+              <h2 class="Skill-title">Skills <span>&#38;</span> Endorsments</h2>
+              <div class="Skill-item-group">
+                  <h3 class="Skill-add">Add a new skill</h3>
+                  <i id ="Skill-pen" class="fas fa-pen"></i>
+              </div>
+      </div>
+      <div class="Skill-button">
+          <button  type="button" class="button-81"  >Take a skill quiz</button>
+      </div> 
+        <Skills @language="python" @connection = " Italo Peralta and 1 connection"/>
+        <Skills @language="CSS" @connection = " Italo Peralta and 1 connection"/>
+        <Skills @language="HTML" @connection = " Italo Peralta and 1 connection"/>
+        </div>
+  
+            <Learning/>
+            <Licenses/>
     </div>
 
      <div class="col-md-4 mt-3">
@@ -58,7 +96,7 @@
         class="float-left profileconnect"
       />
     <h6 class= "text"> - Jessica Delgado</h6>
-    <h6 class= "text2"> Linkedin SWE intern| Industrial Organizational Psycology </h6>
+    <h6 class= "text2"> Linkedin SWE intern| Industrial Organizational Psychology </h6>
          <button  tabindex="0" type="button"   class="buttonconnect">+ Connect</button>
 
 
@@ -101,9 +139,16 @@
           class="twitter-timeline"
           href="https://twitter.com/CUNY?ref_src=twsrc%5Etfw%22%3E"
         >Tweets by CUNY"></a>
-
+        <div class="tweet">
+        <!-- twitter script -->
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
       </div>
 
+  </div>
       <img
         src="ad.png"
         alt="Job Advertisement"
@@ -116,4 +161,6 @@
     </div> 
  
   </div>
-<Unaiza::footer/>
+<Footer/>
+
+</div>

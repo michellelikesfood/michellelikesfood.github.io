@@ -78,13 +78,13 @@ hr {
 .camera {
   height: 0;
   width: 0;
-  margin-left: -60px;
+  padding: 0 !important;
 }
 #camera {
   position: relative;
-  height: 25px;
-  width: 25px;
-  margin-left: -30px;
+  height: 30px;
+  width: 30px;
+  margin-left: -50px;
   margin-top: 10px;
 }
 #dropdown-color {
@@ -364,23 +364,6 @@ input {
 .button-4:-webkit-details-marker {
   display: none;
 }
-
-/* Flex columns */
-/* .flex-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.first {
-  width: 70%;
-  height: 100vh;
-}
-
-.second {
-  width: 27%;
-} */
-
 /* ADVERTISEMENT */
 #ad-image {
   margin-top: 20px;

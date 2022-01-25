@@ -31,16 +31,16 @@
       </div>
 
       <img
-        src="Jessica.jpg"
-        alt="This is profile image of Jessica Delgado."
+        src={{@image}}
+        alt={{@infoalt}}
         class="avatar"
       />
       {{! head section }}
       <div class="flexy">
         <div class="new-paragraph">
-          <h5 class="card-title">Jessica Delgado</h5>
-          <p class="card-text">SWE intern at Linkedin
-            <a href="https://www.linkedin.com/school/queens-college/">
+          <h5 class="card-title">{{@name}}</h5>
+          <p class="card-text">{{@headline}}
+            <a href={{@college}}>
               <img
                 alt="linkedinlogo"
                 src="linkedinlogo.png"
@@ -121,12 +121,12 @@
           <p>
             Contact Information:
 
-            <a href="mailto:unaizanadeem898@gmail.com">
+            <a href={{@mail}}>
               <img alt="contact" src="contact.png" width="20" height="20" />
             </a>
           </p>
           <p>
-            Software Engineer Intern at Linkedin
+            {{@title}}
             <a href="https://www.linkedin.com/company/linkedin/">
               <img
                 alt="linkedin logo"
