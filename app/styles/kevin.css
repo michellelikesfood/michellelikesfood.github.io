@@ -804,3 +804,11 @@
     visibility: hidden;
   }
 }
+
+.project-name {
+  font-size: 20px;
+}
+
+.project-skillset {
+  margin-bottom: 4px;
+}

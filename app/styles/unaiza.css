@@ -23,6 +23,7 @@
   margin-left: 50%;
   margin-top: 0;
 }
+
 .imagecode {
   margin-right: 10pt;
   margin-top: 5pt;
@@ -160,9 +161,7 @@
   margin-bottom: 20px;
   margin-top: 20px;
   transition: 0.02s;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 25px 20px 25px;
 }
 
 .section {
@@ -267,6 +266,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 12px;
 }
 
 .button-81:hover {
@@ -298,4 +298,20 @@
     float: left; /* Float the buttons side by side */
     font-size: 7pt;
   }
- 
+
+.techskills-title {
+  margin: 8px;
+}
+
+.techskills-title-icon {
+  margin-right: 4px;
+}
+
+.techskills-list {
+  margin-left: 35px;
+}
+
+.techskill-code--first {
+  margin-left: 35px;
+}
+
